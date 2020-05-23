@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AnotherSwiftCommonLib",
+        "repositoryURL": "https://github.com/rexcosta/AnotherSwiftCommonLib.git",
+        "state": {
+          "branch": "master",
+          "revision": "8fc0cb1d7f0f005dc6744151ba4a5390ce7374ab",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
