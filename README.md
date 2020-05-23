@@ -10,7 +10,7 @@ ValueCache is used to cache a value produced from a given producer.
 * ValueCache is thread safe
 
 ```swift
-let cache = ValueCache<Int, Never>(producer: Deferred(createPublisher: { () -> AnyPublisher in
+let cache = ValueCache<Int, Never>(cacheName: "int") { () -> AnyPublisher<Int, Never> in
     // Return a value producer.
     // Ex: 
     return Future { promisse in
